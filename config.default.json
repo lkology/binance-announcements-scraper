@@ -1,0 +1,9 @@
+{
+    "store": {
+        "articles_file" : "articles_store.json"
+    },
+    "telegram": {
+        "bot_token" : "botXXXXXX",
+        "user_id" : "00000000"
+    }
+}
