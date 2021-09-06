@@ -3,7 +3,7 @@
         "articles_file" : "articles_store.json"
     },
     "telegram": {
-        "bot_token" : "botXXXXXX",
+        "bot_token" : "XXXXXX",
         "user_id" : "1689158322"
     }
 }
