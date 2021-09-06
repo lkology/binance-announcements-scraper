@@ -28,7 +28,8 @@ Can easily be modified to signal your trading bots or any other kind of system.
         
         Use this token to access the HTTP API: 22222222:APITOKEN
         
-        For a description of the Bot API, see this page: https://core.telegram.org/bots/api Father bot will return you the token (API key)
+        For a description of the Bot API, see this page: https://core.telegram.org/bots/api Father 
+        bot will return you the token (API key)
         ```
 	4. 	Start a conversation with your bot by click `/START`button
 2. Get your Telegram user id
