@@ -10,10 +10,11 @@ from binance_annoucements import *
 from telegram import *
 
 
-# loads local configuration
+# loads local default configuration ('config.default.json') 
+# and overrides with user configuration ('config.user.json')
 config = load_config()
 
-print (config)
+sys.exit()
 
 def debug(msg):
     print(f"[{datetime.now().strftime('%d/%m/%Y %H:%M:%S')}] {msg}")
