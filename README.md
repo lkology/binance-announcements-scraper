@@ -60,9 +60,9 @@ The tool can be run periodically with a cron jon or scheduled task on windows.
     Catalog 'Latest Binance News': Found 1 new article(s)
         Found new article Introducing Binance Recurring Buy
     Catalog 'Latest Activities': No new articles found.
-    'New Fiat Listings': No new articles found.
-    'API Updates': No new articles found.
-    'Crypto Airdrop': No new articles found.
+    Catalog 'New Fiat Listings': No new articles found.
+    Catalog 'API Updates': No new articles found.
+    Catalog 'Crypto Airdrop': No new articles found.
    ```
 
 ### License 
