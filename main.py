@@ -14,8 +14,6 @@ from telegram import *
 # and overrides with user configuration ('config.user.json')
 config = load_config()
 
-sys.exit()
-
 def debug(msg):
     print(f"[{datetime.now().strftime('%d/%m/%Y %H:%M:%S')}] {msg}")
 
@@ -64,12 +62,13 @@ def main():
                 new_articles.append(article)
 
                 article_ids_store.append(article_id)
-
-                debug(f"\tFound new article {article['title']}")
         
         # Did we found new articles for this catalog?
         if len(new_articles) > 0:
             debug(f"Catalog '{catalog['catalogName']}': Found {len(new_articles)} new article(s)")
+
+            debug("\n".join(map(lambda article: f"\tFound new article {article['title']}", new_articles)))
+
             catalogs_with_new_articles.append({ 'name': catalog['catalogName'], 'articles': new_articles })
         else:
             debug(f"Catalog '{catalog['catalogName']}': No new articles found.")
